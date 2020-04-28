@@ -1,6 +1,5 @@
 backend:
-  name: github
-  repo: paris-liam/lova-place-project # Path to your GitHub repository
+  name: git-gateway
 
 # Uncomment below to enable drafts
 # publish_mode: editorial_workflow
