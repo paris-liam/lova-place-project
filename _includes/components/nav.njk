@@ -1,11 +1,10 @@
 <nav>
   <ul>
     <li>
-      <a href="/interviews" {% if "/interviews" == page.url %} data-current="current item"{% endif %}>Interviews</a>
-      <a href="/about"{% if "/about" == page.url %} data-current="current item"{% endif %}>sdasdasdAbout</a>
+      <a href="/" {% if "/" == page.url %} data-current="current item"{% endif %}>Interviews</a>
+      <a href="/about"{% if "/about/" == page.url %} data-current="current item"{% endif %}>About</a>
       <a href="/static/files/manifesto.pdf">Manifesto</a>
-      <a href="/support" {% if "/support" == page.url %} data-current="current item"{% endif %}>Support</a>
-
+      <a href="/support" {% if "/support/" == page.url %} data-current="current item"{% endif %}>Support</a>
     </li>
   </ul>
 </nav>
